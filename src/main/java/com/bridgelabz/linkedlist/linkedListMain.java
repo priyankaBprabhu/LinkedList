@@ -7,6 +7,8 @@ public class linkedListMain {
         linkedList.add(56);
         linkedList.add(70);
         linkedList.insert(1, 30);
+        linkedList.pop();
+
         System.out.println(linkedList);
     }
 }

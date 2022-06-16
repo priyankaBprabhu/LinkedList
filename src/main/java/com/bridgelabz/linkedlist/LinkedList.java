@@ -82,7 +82,6 @@ public class LinkedList<T> implements IList<T> {
 
     @Override
     public void pop() {
-
         head = head.next;
     }
     @Override
