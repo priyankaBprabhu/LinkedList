@@ -8,6 +8,7 @@ public interface IList<T> {
     int size();
     void append(T num);
     void pop();
+    void popLast();
     void addFirst(T num);
     int index(T data);
     void insert(int pos,T num );

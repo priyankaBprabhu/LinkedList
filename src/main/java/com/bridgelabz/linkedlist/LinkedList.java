@@ -85,6 +85,16 @@ public class LinkedList<T> implements IList<T> {
         head = head.next;
     }
     @Override
+    public void popLast() {
+        Node lastNode = head;
+        Node previousNode = null;
+        while (lastNode.next != null) {
+            previousNode = lastNode;
+            lastNode = lastNode.next;
+        }
+        previousNode.next = null;
+    }
+    @Override
     public void insert(int pos,T num ) {
         Node newNode = new Node(num);
         if(pos == index((T) head.data)){
