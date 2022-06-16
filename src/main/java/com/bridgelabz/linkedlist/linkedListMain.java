@@ -7,7 +7,7 @@ public class linkedListMain {
         linkedList.add(56);
         linkedList.add(70);
         linkedList.insert(1, 30);
-        linkedList.popLast();
+        System.out.println(linkedList.search(30));
 
         System.out.println(linkedList);
     }
