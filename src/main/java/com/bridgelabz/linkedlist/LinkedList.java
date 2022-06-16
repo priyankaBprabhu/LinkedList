@@ -104,7 +104,7 @@ public class LinkedList<T> implements IList<T> {
     }
 
     @Override
-    public void set(T num) {
+    public void addFirst(T num) {
         Node node = new Node(num);
         Node newNode ;
         if (head != null ) {
